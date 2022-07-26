@@ -7,14 +7,8 @@ public abstract class Price {
 	   
 	
 	   public int getFrequentRenterPoints(int daysRented) {
-
-		   int frequentRenterPoints = 0;
-
-			// add frequent renter points
-			      frequentRenterPoints ++;
-			      // add bonus for a two day new release rental
-			      if ((getPriceCode() == Movie.NEW_RELEASE) &&  daysRented > 1) return 2;
-			      else return 1;
+	       return 1;
 	   }
-	 
+	   
+	   
 	}
